@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background-image: linear-gradient(90deg, #22a6b3, #bdc3c7);
+}
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    justify-content: space-between;
+}
+
+header img .ban {
+    width: 100%;
+    max-width: 100%;
+}
+
+header ul {
+    width: 100%;
+    background-color: #282828;
+    height: 6vh;
+    top: -7px;
+}
+
+header ul li {
+    float: right;
+    padding: 10px 10px;
+}
+
+header ul li a {
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.1vw;
+}
+
+header a {
+    transition: 0.3s ease;
+    z-index: 2;
+}
+
+header a:hover {
+    background-color: #3498db;
+    padding: 60px 10px;
+}
+
+header .ban {
+    width: 100%;
+    min-width: 100%;
+    background-color: #282828;
+}
+
+header ul li .search {
+    flex-wrap: nowrap;
+    float: right;
+}
+
+.search {
+    position: relative;
+    height: 40px;
+    top: 0;
+}
+
+.search .input {
+    background-color: #fff;
+    border: 0;
+    font-size: 14px;
+    padding: 14px;
+    height: 20px;
+    width: 120px;
+    border-radius: 5px;
+}
+
+.bt {
+    background-color: #fff;
+    border: 0;
+    cursor: pointer;
+    font-size: 15px;
+    position: absolute;
+    top: 4px;
+    right: 0;
+    height: 20px;
+    width: 30px;
+    border-radius: 5px;
+    margin-top: -1px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 28vh;
+}
+
+.title {
+    position: absolute;
+    top: 31vh;
+    font-family: 'Nunito';
+    font-weight: 800;
+    font-size:20px;
+}
+
+.content {
+    position: relative;
+    width: 75%;
+    background-image: linear-gradient(90deg, #c7ecee, #dff9fb);
+    border: solid black 1px;
+    height: 70vh;
+    border-radius: 5px;
+}
+
+#frameEp {
+    position: absolute;
+    width: 600px;
+    height: 400px;
+}
+
+.chevrons {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 30px;
+}
+
+.btleft {
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    padding: 0px 10px;
+}
+
+.btright {
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    padding: 0px 10px;
+}
